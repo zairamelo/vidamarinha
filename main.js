@@ -1,8 +1,8 @@
 alert("tubarao vai te pegar")
 
 function criarCarto(pergunta, repota){
-    console.log("pergunta,respota")
+    let conteudo = document.getElementById("conteudo")
 
 }
 
-crirCartoao()
+crirCartoao(1,2)
