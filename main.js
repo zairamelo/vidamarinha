@@ -2,7 +2,7 @@
 
 function criarCartao(pergunta,resposta){
     let conteudo = document.getElementById("conteudo")
-let cartao = document.creataElemente()
+let cartao = document.creataElement('article')
 cartao.classLit = 'cartao'
 
 cartao.innerHTML = `<div class="cartao--conteudo">
