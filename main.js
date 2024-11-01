@@ -1,6 +1,6 @@
 
 
-function criarCarto(pergunta,resposta){
+function criarCartao(pergunta,resposta){
     let conteudo = document.getElementById("conteudo")
 let cartao = document.creataElemente()
 cartao.classLit = 'cartao'
@@ -13,4 +13,3 @@ cartao.innerHTML = `<div class="cartao--conteudo">
 
 conteudo.appendChild(cartao)
 }
-crirCartoao(1,2)
